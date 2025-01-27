@@ -1,0 +1,67 @@
+# Python Bytecode
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyc
+*.pyd
+
+# Django specific
+*.log
+db.sqlite3-journal
+media/
+staticfiles/
+*.pot
+*.py[co]
+
+# Environment Variables
+.env
+*.env
+
+# Virtual Environments
+venv/
+env/
+venv.bak/
+ENV/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.orig
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+coverage.xml
+nosetests.xml
+test_*.py
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Build Files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Node modules (if using JavaScript/Node in the project)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker
+*.pid
+*.seed
+*.backup
+*.bak
+.dockerignore
+
+# Miscellaneous
+*.tmp
+*.temp
+logs/
+*.log.*
